@@ -1,0 +1,63 @@
+.App {
+  background-color: #3e5e9e;;
+  height: 100%;
+  padding:20px;
+  display:flex;
+  justify-content: space-between;
+}
+.movie {
+  border:2px solid #fff;
+  padding:10px;
+  margin:15px;
+  box-shadow: 5px 9px 15px rgb(131, 156, 173);
+  color:#fff;
+  height: 400px;
+  width: 200px;  
+}
+
+.movies {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 20px;
+  padding:10px;
+  
+} .title {
+  color:#fff;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-align: center;
+  padding:10px;
+  text-shadow: 5px 9px 15px rgb(131, 156, 173);
+}
+
+.search {
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px
+}
+
+.rate {
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px
+} 
+.add {
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+  .adding {
+    height:300px;
+    width:40%;
+    margin:5px auto;
+    box-shadow: 5px 9px 15px rgb(131, 156, 173);
+  }
